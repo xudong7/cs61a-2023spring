@@ -1,11 +1,14 @@
-def reverse(list):
-    if len(list) == 1:
-        return list
-    else:
-        return reverse(list[1:]) + list[0]
-
-print(reverse("hello"))
-
+def combo(x, y):
+    '''
+    >>> combo(531, 432)
+    45312
+    >>> combo(531, 4321)
+    45321
+    >>> combo(1234, 9123)
+    91234
+    >>> combo(0, 321)
+    321
+    '''
 
 
 
